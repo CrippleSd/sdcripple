@@ -8,18 +8,18 @@
 A - src
 e.g ⬇
 1 src
-     > 2 cripplesd
-         > 3 apps
-             > 4 fprogram
+    > 2 cripplesd
+        > 3 apps
+            > 4 fprogram
 
 e.g "src ➡ cripplesd ➡ apps ➡ fprogram"
  After you create these sub-folders so you have to move the file MainActivity.java to the last sub-folder fprogram
 e.g ⬇
 " 1 src
-          > 2 cripplesd
-              > 3 apps
-                  > 4 fprogram
-                     > 5 MainActivity.java "
+       > 2 cripplesd
+           > 3 apps
+               > 4 fprogram
+                   > 5 MainActivity.java "
 
 B - res
 e.g ⬇
