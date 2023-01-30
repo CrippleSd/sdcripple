@@ -1,4 +1,4 @@
-package cripplesdtech.apps.fprogram;
+package cripplesd.apps.fprogram;
 
 Import android.app.Activity
 
