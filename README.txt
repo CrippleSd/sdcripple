@@ -14,7 +14,8 @@ e.g ⬇
 
 e.g "src ➡ cripplesd ➡ apps ➡ fprogram"
  After you create these sub-folders so you have to move the file MainActivity.java to the last sub-folder fprogram
-e.g " 1 src
+e.g ⬇
+" 1 src
           > 2 cripplesd
               > 3 apps
                   > 4 fprogram
