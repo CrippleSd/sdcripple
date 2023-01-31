@@ -1,6 +1,6 @@
 package cripplesd.apps.fprogram;
 
-Import android.app.Activity;
+import android.app.Activity;
 
 Public class MainActivity extends Activity {
   @Override
