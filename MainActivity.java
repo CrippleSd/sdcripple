@@ -4,7 +4,8 @@ Import android.app.Activity;
 
 Public class MainActivity extends Activity {
   @Override
-    Public void onCreate(Bundle savedInstanceState)
-       return super.onCreate(SavedInstanceState)
+    Protected void onCreate(Bundle savedInstanceState)
+       super.onCreate(SavedInstanceState) {
        setContentView(R.layout.main)
+    }
 }
