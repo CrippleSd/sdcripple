@@ -79,12 +79,12 @@ package="my.option.menu">
 
 <p>public class MenuActivity extends Activity {
 
-<p@Override</p>
+<p>@Override</p>
 <p>protected void onCreate(Bundle savedInstanceState) {</p>
 <menu>
 <p>super.onCreate(savedInstanceState);</p>
 <p>setContentView(R.layout.main);</p>
- </menu>
+</menu>
      
 <p>@Override
 <p> public boolean onCreateOptionsMenu(Menu menu) {</p>
