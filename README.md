@@ -1,4 +1,4 @@
-# sdcripple
+# CRIPPLE SD
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,7 +55,7 @@ package="my.option.menu">
 <b style="color: blue"><</b>
 <b style="color: blue">item</b>
 <p><cite style="color: grey">android</cite>:<i style="color: red">id</i>="<i style="color: purple">@+id/item1"</p>
-<p><cite style="color: gray">android</cite>:<i style="color: red">title</i>="Item1" <b style="color: blue">/></b></p>
+<p><cite style="color: gray">android</cite>:<i style="color: red">title</i>="Item1"<b style="color: blue">/></b></p>
 <b style="color: blue"><</b>
 <b style="color: blue">item</b>
 <p><cite style="color: gray">android</cite>:<i style="color: red">id</i>="@+id/item2"</p>
