@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Option Menu App</title>
 </head>
 <body>
 <i>
@@ -13,24 +12,24 @@
 <b><p><</b>?xml version="1.0" encoding="utf-8"?></p>
 <b><p><</b>manifest xmlns:android="http://schemas.android.com/apk/res/android"</p>
 <menu>
-    package="my.option.menu">
+package="my.option.menu">
 
-    <b><p><</b>uses-sdk</p>
-       <p> android:minSdkVersion="12"</p>
-       <p> android:targetSdkVersion="30" /></p>
+<b><p><</b>uses-sdk</p>
+<p> android:minSdkVersion="12"</p>
+<p> android:targetSdkVersion="30" /></p>
 <menu>
-    <b><p><</b>application</p></menu>
-     <menu> <p>  android:allowBackup="true"</p>
-      <p>  android:label="Option Menu App"</p>
-       <p> android:supportsRtl="true"></p></menu>
-      <menu>  <b><p><</b>activity android:name=".MenuActivity"></p></menu>
-            <b><p><</b>intent-filter></p>
-                <b><p><</b>action android:name="android.intent.action.MAIN" /></p>
+<b><p><</b>application</p></menu>
+<menu><p>android:allowBackup="true"</p>
+<p>android:label="Option Menu App"</p>
+<p>android:supportsRtl="true"></p></menu>
+<menu><b><p><</b>activity android:name=".MenuActivity"></p></menu>
+<b><p><</b>intent-filter></p>
+<b><p><</b>action android:name="android.intent.action.MAIN" /></p>
 
-                <b><p><</b>category android:name="android.intent.category.LAUNCHER" /></p>
-           <menu> <b><p><</b>/intent-filter></p></menu>
-       <menu> <b><p><</b>/activity></p></menu>
-  <b><p><</b>/application></p>
+<b><p><</b>category android:name="android.intent.category.LAUNCHER" /></p>
+<menu><b><p><</b>/intent-filter></p></menu>
+<menu> <b><p><</b>/activity></p></menu>
+<b><p><</b>/application></p>
 </menu>
 
 
@@ -41,10 +40,10 @@
 <b style="color: blue"><</b>?xml version="1.0" encoding="utf-8"?>
 <b style="color: blue"><p><</b>LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"</p>
 <menu>
-  <p>  android:layout_width="match_parent"</p>
-  <p>  android:layout_height="match_parent"</p>
-  <p>  android:gravity="center"</p>
-   <p> android:orientation="vertical"></p>
+<p>android:layout_width="match_parent"</p>
+<p>android:layout_height="match_parent"</p>
+<p>android:gravity="center"</p>
+<p>android:orientation="vertical"></p>
 
 </menu>
 <p><b style="color: blue"><</b>/LinearLayout></p>
@@ -80,23 +79,23 @@
 
 <p>public class MenuActivity extends Activity {
 
-<p>    @Override</p>
+<p@Override</p>
 <p>protected void onCreate(Bundle savedInstanceState) {</p>
 <menu>
-<p>      super.onCreate(savedInstanceState);</p>
-     <p>   setContentView(R.layout.main);</p>
-     </menu>
+<p>super.onCreate(savedInstanceState);</p>
+<p>setContentView(R.layout.main);</p>
+ </menu>
      
-     <p>@Override
-    <p> public boolean onCreateOptionsMenu(Menu menu) {</p>
-    <menu>
-   <p>  // Inflate menu.xml
-    <p> MenuInflater Inflater = getMenuInflater();</p>
-    <p> Inflater.inflate(R.menu.menu, menu);</p>
-    <p> return true;
-   <p> <a style="color: white">__   _ _ </a><param>}</param></p>
+<p>@Override
+<p> public boolean onCreateOptionsMenu(Menu menu) {</p>
+<menu>
+<p>// Inflate menu.xml
+<p>MenuInflater Inflater = getMenuInflater();</p>
+<p>Inflater.inflate(R.menu.menu, menu);</p>
+<p>return true;
+<p><a style="color: white">__   _ _ </a><param>}</param></p>
     
-     </menu>
+</menu>
 <p>@Override</p>
 <p>public boolean onOptionsItemSelected (MenuItem item) {</p>
 <menu>
